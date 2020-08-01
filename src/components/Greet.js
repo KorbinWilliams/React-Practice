@@ -1,9 +1,18 @@
 import React from "react";
 
-// function Greet() {
-//   return <h1>Hello me</h1>;
-// }
+function Greet(props) {
+  return (
+    <div>
+      <h1>
+        {" "}
+        Hello {props.name}, or should I call you {props.heroName}{" "}
+      </h1>
+      {props.children}
+    </div>
+  );
+}
 
-export const Greet = () => <h1>Hello me</h1>;
-
-// export default Greet;
+//  Greet = (props) => {
+//   return <h1>Hello {props.name}</h1>;
+// };
+export default Greet;
