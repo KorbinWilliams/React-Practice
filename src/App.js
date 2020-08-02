@@ -5,11 +5,13 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/HelloJSX";
 import HelloJs from "./components/HelloJS";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Message />
+      <Counter />
+      {/* <Message /> */}
       {/* <Greet name="jesus" heroName="jehova">
         <p>These are the children</p>
       </Greet>
