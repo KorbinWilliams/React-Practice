@@ -8,10 +8,12 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
 
 function App() {
   return (
     <div className="App">
+      <EventBind />
       {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet name="jesus" heroName="jehova"></Greet> */}
@@ -22,8 +24,8 @@ function App() {
       <Welcome name="jesus" heroName="jehova"></Welcome>
   <Welcome name="satan" heroName="diablo"></Welcome>*/}
       {/* <Welcome name="budhha" heroName="sidartha gatama"></Welcome> */}
-      <FunctionClick />
-      <ClassClick />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
     </div>
   );
 }
