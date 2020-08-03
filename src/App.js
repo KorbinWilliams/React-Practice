@@ -12,16 +12,14 @@ function App() {
     <div className="App">
       <Counter />
       {/* <Message /> */}
-      {/* <Greet name="jesus" heroName="jehova">
-        <p>These are the children</p>
-      </Greet>
-      <Greet name="satan" heroName="diablo">
+      <Greet name="jesus" heroName="jehova"></Greet>
+      {/* <Greet name="satan" heroName="diablo">
         <button>Action</button>
       </Greet>
       <Greet name="budhha" heroName="sidartha gatama"></Greet>
       <Welcome name="jesus" heroName="jehova"></Welcome>
-      <Welcome name="satan" heroName="diablo"></Welcome>
-      <Welcome name="budhha" heroName="sidartha gatama"></Welcome> */}
+  <Welcome name="satan" heroName="diablo"></Welcome>*/}
+      <Welcome name="budhha" heroName="sidartha gatama"></Welcome>
     </div>
   );
 }

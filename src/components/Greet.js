@@ -1,13 +1,17 @@
 import React from "react";
 
-function Greet(props) {
+// NOTE Regular--- function Greet(props) {
+// NOTE Destructuring in parameters
+function Greet({ name, heroName }) {
+  // NOTE Destructuring in function body
+  //  const {name, heroName} = props
+  //
   return (
     <div>
       <h1>
-        {" "}
-        Hello {props.name}, or should I call you {props.heroName}{" "}
+        Hello {name}, or should I call you {heroName}{" "}
       </h1>
-      {props.children}
+      {/* {props.children} */}
     </div>
   );
 }
